@@ -3,8 +3,6 @@ Um exemplo funcional de crud utilizando PHP + MYSQL + JS
 
 Inicie o seu servidor HTTP (LAMP, XAMP ou WAMP...)
 
-
-1. Inicie o seu servidor HTTP (LAMP, XAMP ou WAMP...).
 1. Certifique-se de que o servidor apache está rodando, assim como o Mysql database.
 1. Acesse seu phpMyAdmin.
 1. Crie um script para criação da estrutura e inserção de dados conforme os passos abaixo.
