@@ -6,6 +6,7 @@ Crie uma base de dados chamada 'crud'
 
 Depois crie a estrutura da tabela de cliente:
 
+```sql
 CREATE TABLE IF NOT EXISTS `cliente` (
   `cli_id` int(11) NOT NULL AUTO_INCREMENT,
   `cli_nome` varchar(150) NOT NULL,
@@ -15,6 +16,7 @@ CREATE TABLE IF NOT EXISTS `cliente` (
   `image` varchar(150) NOT NULL,
   PRIMARY KEY (`cli_id`)
 ) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=74 ;
+```
 
 Depois adicione alguns registros para que a tela já inicie funcionando com os exemplos:
 
@@ -25,10 +27,3 @@ INSERT INTO crud.cliente (cli_nome,cli_sobrenome,cli_email,cli_contato,image) VA
 ,('Kuai ','Liang','subzero@subzero.com.br','(48) 3346-8990','555455867.png')
 ;
 
-```javascript
-function fancyAlert(arg) {
-  if(arg) {
-    $.facebox({div:'#foo'})
-  }
-}
-```
