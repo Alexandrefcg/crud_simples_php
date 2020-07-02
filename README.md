@@ -26,7 +26,7 @@ CREATE TABLE IF NOT EXISTS `cliente` (
   `cli_contato` varchar(150) NOT NULL,
   `image` varchar(150) NOT NULL,
   PRIMARY KEY (`cli_id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=74 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
 ```
 
 Depois adicione alguns registros para que a tela já inicie funcionando com os exemplos:
