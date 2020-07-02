@@ -5,9 +5,9 @@ Inicie o seu servidor HTTP (LAMP, XAMP ou WAMP...)
 
 
 1. Inicie o seu servidor HTTP (LAMP, XAMP ou WAMP...).
-  1. Acesse seu phpMyAdmin.
-  1. Crie um script e siga com os passos abaixo.  
-
+1. Certifique-se de que o servidor apache está rodando, assim como o Mysql database.
+1. Acesse seu phpMyAdmin.
+1. Crie um script para criação da estrutura e inserção de dados conforme os passos abaixo.
 
 # Banco de dados
 Crie uma base de dados chamada 'crud'
@@ -37,3 +37,5 @@ INSERT INTO crud.cliente (cli_nome,cli_sobrenome,cli_email,cli_contato,image) VA
 ,('Hanzo','Hasashi','scorpion@scorpion.com.br','(99) 9999-9999','1445079170.png')
 ,('Kuai ','Liang','subzero@subzero.com.br','(48) 3346-8990','555455867.png');
 ```
+Após seguir estes passos, basta iniciar a sua aplicação no browser com localhost/crud_simples_php.
+
