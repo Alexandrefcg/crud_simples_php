@@ -1,4 +1,6 @@
 $(document).ready(function(){
+	$("#cli_contato").mask("(00) 0000-0000");
+	
 	$('#add_button').click(function(){
 		$('#cadastroCliente')[0].reset();
 		$('.modal-title').text("Adicionar Cliente");

@@ -81,12 +81,5 @@
 			</div>
 		</div>
 	</body>
-	<script src="script/main.js"></script>
-	<script type="text/javascript">
-    	$("#cli_contato").mask("(00) 0000-0000");
-    </script>
+	<script src="script/main.js"></script><script type="text/javascript">    	
 </html>
-
-
-
-
