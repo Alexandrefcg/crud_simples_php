@@ -24,3 +24,11 @@ INSERT INTO crud.cliente (cli_nome,cli_sobrenome,cli_email,cli_contato,image) VA
 ,('Hanzo','Hasashi','scorpion@scorpion.com.br','(99) 9999-9999','1445079170.png')
 ,('Kuai ','Liang','subzero@subzero.com.br','(48) 3346-8990','555455867.png')
 ;
+
+```javascript
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+```
